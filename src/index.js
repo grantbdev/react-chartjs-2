@@ -180,6 +180,7 @@ class ChartComponent extends React.Component {
   }
 
   updateChart() {
+    console.log('in chart update!')
     const {options} = this.props;
 
     const data = this.memoizeDataProps(this.props);
